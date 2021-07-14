@@ -26,7 +26,7 @@ a{
 }
 /* header section style  */
 .header-container{
-     
+     height:100vh;  
     background:  #2D25A0;
     
 }
@@ -35,10 +35,7 @@ a{
     height: 100vh;
     display:flex;
     justify-content: center;
-    align-items: center;
-     
-   
-    
+    align-items: center;    
 }
 .banner-heading{
     margin-right:67px;
@@ -49,8 +46,6 @@ a{
     font-size: 64px;
     font-weight: 700;
     color: #fff;
-
-
 }
 .banner-image{
     padding-right: 110px;
@@ -237,7 +232,11 @@ a{
    }
    .banner-heading{
     margin-right:0;
-    padding-left: 50px;
+    padding-left: 20px;
+    
+    }
+    .banner-heading h1{
+        font-size: 50px;   
     }
 
   
@@ -252,6 +251,7 @@ a{
     }
     .player-image img{
         width:100%;
+        height: auto;
         
     }
     .about{
