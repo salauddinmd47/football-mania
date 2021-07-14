@@ -300,6 +300,10 @@ a{
 .news-thumnail img{
     width:100%;
 }
+.footer-thumbnail img{
+    height:80px;
+    margin-right:0;
+ }
  }
  @media only screen and (min-width:688px) and (max-width:988px){
     .player-container{
@@ -357,6 +361,36 @@ a{
 .about-image img{
     width:100%;
     border-radius:5px;
+}
+.main-banner{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.live-button{
+    margin-left: 280px;
+    margin-top: 50px;
+    display:inline-block;
+    padding:20px 30px;
+    font-size:20px;
+    
+}
+.banner-image img{
+     width:100%;
+     height:auto;  
+     margin-top: 100px;  
+     margin-left: 20px;  
+}
+.banner-heading{
+margin-right:0;
+padding-left: 20px;
+
+}
+.banner-heading h1{
+    font-size: 80px;   
+    text-align: center;
 }
  
 }
